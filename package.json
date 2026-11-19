@@ -1,0 +1,20 @@
+{
+  "name": "pdf-mark-link",
+  "version": "0.1.4",
+  "private": true,
+  "license": "MIT",
+  "author": "Flyboy",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "node --test tests/*.test.cjs"
+  },
+  "dependencies": {
+    "pdf-lib": "1.17.1"
+  },
+  "devDependencies": {
+    "esbuild": "0.28.2"
+  }
+}

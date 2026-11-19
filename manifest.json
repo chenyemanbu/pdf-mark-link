@@ -1,0 +1,9 @@
+{
+  "id": "pdf-mark-link",
+  "name": "PDF 标注与笔记链接",
+  "version": "0.1.4",
+  "minAppVersion": "1.15.1",
+  "description": "Highlight text, circle figures, add PDF comments, and link annotations to notes.",
+  "author": "Flyboy",
+  "isDesktopOnly": true
+}
