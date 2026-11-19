@@ -1,4 +1,6 @@
-# PDF 标注与笔记链接
+# PDF Mark Link
+
+PDF 标注与笔记链接，简体中文操作界面。
 
 在 Obsidian 的 PDF 阅读器里高亮文字、圈选曲线、写分析批注，并把对应位置关联到已有笔记。界面为简体中文。
 
@@ -24,9 +26,9 @@ PDF Mark Link adds Chinese-language annotation controls to Obsidian's built-in P
 
 ## 安装
 
-当前为准备提交社区目录的桌面版本。
+当前为准备提交社区目录的桌面版本。市场中的名称为 PDF Mark Link。
 
-下载发布版的 `main.js`、`manifest.json`、`styles.css`，放进知识库的 `.obsidian/plugins/pdf-mark-link/` 文件夹，然后在「设置 → 社区插件」中启用「PDF 标注与笔记链接」。也可以解压安装 ZIP，把整个 `pdf-mark-link` 文件夹放进 `.obsidian/plugins/`。
+下载发布版的 `main.js`、`manifest.json`、`styles.css`，放进知识库的 `.obsidian/plugins/pdf-mark-link/` 文件夹，然后在「设置 → 社区插件」中启用 PDF Mark Link。也可以解压安装 ZIP，把整个 `pdf-mark-link` 文件夹放进 `.obsidian/plugins/`。
 
 更新前停用插件，替换上述三个文件后重新启用。
 
@@ -59,7 +61,7 @@ npm test
 npm run build
 ```
 
-构建结果在 `dist/`。发布标签应与 `manifest.json` 中的版本完全一致，例如 `0.1.4`，不加 `v` 前缀。
+构建结果在 `dist/`。合并新版本到 main 后，发布工作流会为 manifest 中尚未发布的版本创建同名标签及 Release，例如 `0.1.5`，不加 `v` 前缀。
 
 源代码、安装说明和许可证均属于本插件。依赖的许可证会写入构建后的 `main.js` 顶部和 `THIRD_PARTY_NOTICES.md`。
 
